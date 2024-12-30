@@ -177,3 +177,8 @@
     margin-bottom: 10px;
   }
 }
+@media (max-width: 380px) {
+  .formacao-container .subtitulo {
+    font-size: 3rem;
+  }
+}
