@@ -90,6 +90,7 @@
   }
   .experiencia .subtitulo {
     color: #141414;
+    max-width: 100ch;
   }
 }
 
