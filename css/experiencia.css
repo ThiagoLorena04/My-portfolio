@@ -10,6 +10,7 @@
 .experiencia .subtitulo {
   color: #e0e0e0;
   align-self: center;
+  max-width: 4ch;
 }
 
 .experiencia-texto {
