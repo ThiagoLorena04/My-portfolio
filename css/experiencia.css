@@ -101,9 +101,12 @@
 }
 @media (max-width: 400px) {
   .experiencia .subtitulo {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
   }
   .experiencia-texto {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+  .empresa-texto {
+    font-size: 1.2rem;
   }
 }
