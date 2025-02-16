@@ -38,13 +38,13 @@
 }
 
 @media (max-width: 900px) {
-  .voce {
-    /* display: none; */
-  }
   .introducao {
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+  .introducao h1 {
+    font-size: 40px;
   }
 }
 
