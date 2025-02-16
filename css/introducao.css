@@ -8,6 +8,11 @@
   align-items: center;
 }
 
+.introducao .voce {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
 .introducao h1 {
   font-size: 4.5rem;
   line-height: 5.5rem;
@@ -32,6 +37,17 @@
   color: #525252;
 }
 
+@media (max-width: 900px) {
+  .voce {
+    /* display: none; */
+  }
+  .introducao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 @media (max-width: 800px) {
   .introducao h1 {
     font-size: 2rem;
@@ -45,6 +61,10 @@
   .introducao h1::before {
     width: 130px;
     height: 80px;
+  }
+  .voce {
+    width: 50%;
+    height: 50%;
   }
 }
 
