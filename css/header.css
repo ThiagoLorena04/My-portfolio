@@ -42,4 +42,14 @@
     border: 2px solid #f9f9f9;
     border-radius: 9px;
   }
+  .header .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo {
+    width: 90px;
+    height: 50px;
+  }
 }
